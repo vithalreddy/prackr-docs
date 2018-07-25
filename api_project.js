@@ -1,5 +1,5 @@
 define({
-  "name": "prackr-api-docs",
+  "name": "Prackr API Documentation",
   "version": "1.0.0",
   "description": "Prackr API's Documentation",
   "title": "Prackr API's Documentation",
@@ -9,7 +9,7 @@ define({
   "apidoc": "0.3.0",
   "generator": {
     "name": "apidoc",
-    "time": "2018-07-25T08:10:36.917Z",
+    "time": "2018-07-25T08:12:08.744Z",
     "url": "http://apidocjs.com",
     "version": "0.17.6"
   }
