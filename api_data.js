@@ -3,6 +3,7 @@ define({ "api": [
     "type": "post",
     "url": "/:workId/subwork/create",
     "title": "add new subwork to work",
+    "version": "1.0.0",
     "name": "addSubwork",
     "group": "Subwork",
     "parameter": {
@@ -64,7 +65,6 @@ define({ "api": [
         }
       ]
     },
-    "version": "0.0.0",
     "filename": "app/controllers/subwork.controller.js",
     "groupTitle": "Subwork"
   }
