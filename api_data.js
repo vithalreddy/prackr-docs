@@ -99,7 +99,14 @@ define({ "api": [
             "description": "<p>dueDate of subwork .</p>"
           }
         ]
-      }
+      },
+      "examples": [
+        {
+          "title": "Request-Example:",
+          "content": "    {\n     userFilter: {\n\t\t\t\t\t\tbranches:[Branch,Branch,...],\n\t\t\t\t\t\tlevels:[Level, Level,...],\n\t\t\t\t\t\tdepartments:[Department, Department,...],\n\t\t\t\t\t\tskillsets:[Skillset, Skillset,...],\n\t\t\t\t\t\tinternalUsers:[User, User,...],\n\t\t\t\t\t\texternalUsers:[User, User,...],\n\t\t\t\t\t\tassignerTask: false,\n\t\t\t\t\t\tfacilitatorTask: false,\n\t\t\t\t\t\ttype:\"Internal/External/Filter/Assigner\" \n\t\t\t},\n    }",
+          "type": "js"
+        }
+      ]
     },
     "filename": "app/controllers/subwork.controller.js",
     "groupTitle": "Subwork"
