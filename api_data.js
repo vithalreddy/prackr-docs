@@ -6,6 +6,11 @@ define({ "api": [
     "version": "1.0.0",
     "name": "addSubwork",
     "group": "Subwork",
+    "permission": [
+      {
+        "name": "authenticated user"
+      }
+    ],
     "parameter": {
       "fields": {
         "Parameter": [
